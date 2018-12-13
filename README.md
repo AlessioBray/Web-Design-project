@@ -8,4 +8,5 @@ Were used the following programming languages/thecnology:
  * Javascript
  * PHP
  * Ajax
-[Take a look](http://braytetris.altervista.org): register, sign in and play!
+ 
+**[Take a look](http://braytetris.altervista.org): register, sign in and play!**
