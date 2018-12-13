@@ -1,0 +1,283 @@
+body
+{
+    text-align: center;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 15px;
+    background-image: url('../img/tetris_background.jpg');
+    background-size: cover;
+}
+
+.playgroundWrapper
+{
+    width: 600px;
+    height: 700px;
+    border-radius: 10px;
+    background-color: rgba(200, 0, 0, 0.9);
+}
+
+#playgroundWrapper
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#playgroundWrapper_1
+{
+    position: absolute;
+    left: 50%;
+    top: 15px;
+    transform: translate(-110%, 0%);
+}
+
+#playgroundWrapper_2
+{
+    position: absolute;
+    left: 50%;
+    top: 15px;
+    transform: translate(10%, 0%);
+}
+
+.playgroundBackground
+{
+    width: 342px;
+    height: 674px;
+    position: relative;
+    float: left;
+    left: 25px;
+    top: 13px;
+    border-radius: 10px;
+    background-color: rgba(60, 160, 184, 0.9);
+}
+
+.playground
+{
+    position: relative;
+    left: 5px;
+    top: 5px;
+}
+
+.cell
+{
+    width: 30px; 
+    height: 30px;  
+    border: 2px inset rgba(60, 160, 184, 0.9);
+    display: table-cell;
+}
+
+.empty
+{
+    background : aliceblue;
+}
+
+.frozen
+{
+    background : lightslategray;
+}
+
+.tetramino_O
+{   
+    background : blue;
+}
+
+.tetramino_I
+{
+    background : red;
+}
+
+.tetramino_J
+{
+    background : yellow;
+}
+
+.tetramino_L
+{
+    background : purple;
+}
+
+.tetramino_T
+{
+    background : cyan;
+}
+
+.tetramino_S
+{
+    background : green;
+}
+
+.tetramino_Z
+{
+    background : orange;
+}
+
+.sideBoard
+{
+    position: relative;
+    float: right;
+    right: 34.5px;
+    top: 50px;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#sideBoard_2
+{
+    right: 27.5px;
+}
+
+.nextTetraminoBox
+{
+    position: relative;
+    left: 9px;
+    height: 103px;
+    width: 146px;
+    border-radius: 10px;
+    background-color: rgba(60, 160, 184, 0.9);
+}
+
+#nextTetraminoBox_2
+{
+    left: 16px;
+}
+
+.nextTetraminoBox > p
+{
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+
+.deck
+{
+    position: relative;
+    left: 5px;
+    right: 5px;
+}
+
+.scoreBoard, .controlBoard
+{
+    position: relative;
+    border-radius: 10px;
+    margin-top: 75px;
+    background-color: rgba(60, 160, 184, 0.9);
+}
+
+.scoreBoard
+{
+    left: 4.5px;
+    width: 155px;
+}
+
+#scoreBoard_2
+{
+    left: 11.5px;
+}
+
+table > tr
+{
+    height: 30px;
+}
+
+table > tr > th
+{
+    padding-right: 10px;
+    text-align: left;
+}
+
+#controlBoard_2 > table > tr > th
+{
+    padding-right: 0px;
+}
+
+.scoreBox, .linesBox, .tetrisBox, .levelBox
+{
+    width: 50px;
+}
+
+.controlBoard > table > tr > td
+{
+    padding-right: 10px;
+}
+
+#controlBoard_2 > table > tr > td
+{
+    padding-right: 2px;
+}
+
+#overlay
+{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(116, 126, 138, 0.9);
+    z-index: 100;
+}
+
+.popup
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -75%);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(200, 0, 0, 0.9);
+    z-index: 4;
+}
+
+.popup > h2, .popup > h3, .popup > p
+{
+    margin-top: 0px;
+}
+
+.popup > h2, .popup > h3
+{
+    margin-bottom: 15px;
+    color: rgba(60, 160, 184, 0.9);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.popup > button
+{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(39, 179, 88, 0.7); 
+    cursor: pointer; 
+}
+
+.popup > button:hover
+{   
+    background-color: rgba(39, 179, 88, 1);
+}
+
+#popupInput
+{
+    padding: 5px;
+    width: 100px;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+#playerUsernamePopup
+{
+    width: 390px;
+    height: auto;
+}
+
+#usernameWarning
+{
+    margin: 10px 0px 10px 0px;
+    font-size: 15px;
+    font-weight: bold;
+    color: red;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}

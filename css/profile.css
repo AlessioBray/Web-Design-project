@@ -1,0 +1,189 @@
+body
+{
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+	background-image: url('../img/tetris_background.jpg');
+	background-size: cover;
+}
+
+section
+{
+	width: 650px;
+	border-radius: 20px;
+	background-color: rgba(200, 0, 0, 0.9);
+	padding:20px;
+}
+
+#profileData
+{
+	position: absolute;
+	left: 50%;
+	top: 20px;
+	transform: translate(-102%, 0%);
+}
+
+#ranking
+{
+	position: absolute;
+	left: 50%;
+	top: 20px;
+	transform: translate(2%, 0%);
+}
+
+#username
+{
+	position: relative;
+	height: 45px;
+}
+
+h2
+{
+	height: 30px;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#deleteAccount
+{
+	position: relative;
+	top: -45px;
+	left: 250px;
+	width: 24px;
+	height: 24px;
+	border: none; 
+	background-color: transparent;
+	background-image: url('../img/trash_can.png');
+}
+
+#deleteAccount:hover
+{
+	cursor: pointer;
+}
+
+table
+{
+	width: 650px;
+}
+
+caption
+{
+	height: 28px;
+	padding: 2px;
+	border-radius: 10px;
+	border: ridge;
+	border-width: 2px;
+	border-color: rgba(255, 255, 255, 0.6);
+	font-size: 23px;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	background-color: rgba(60, 160, 184, 0.9);
+}
+
+td, th
+{
+	height: 35px;
+	width: 200px;
+	border: solid thin;
+	border-radius: 10px;
+	text-align: center; 
+	padding: 0;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+a
+{
+	position: relative;
+	top: 18px;
+	padding: 18px;
+	border-radius: 10px;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+.buttons
+{
+	position: relative;
+	height: 57px;
+	margin: 15px 0px 0px 0px;
+}
+
+.gameLink, .rankingLink
+{
+	color: white;
+	background-color: rgba(39, 179, 88, 0.7);
+}
+
+.gameLink:hover, .rankingLink:hover
+{
+	background-color: rgba(39, 179, 88, 1);
+}
+
+#logout
+{
+	border-color: white;
+	color: white;
+	background-color: rgba(60, 160, 184, 0.8);
+}
+
+#logout:hover
+{
+	color: red;
+	background-color: rgba(60, 160, 184, 1);
+}
+
+#overlay
+{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(116, 126, 138, 0.9);
+    z-index: 100;
+}
+
+.popup
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -75%);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(200, 0, 0, 0.9);
+    z-index: 4;
+}
+
+.popup > h3, .popup > p
+{
+    margin-top: 0px;
+}
+
+.popup > h3
+{
+    margin-bottom: 15px;
+    color: rgba(60, 160, 184, 0.9);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.popup > button
+{
+	width: 50px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(39, 179, 88, 0.7); 
+    cursor: pointer; 
+}
+
+.popup > button:hover
+{   
+    background-color: rgba(39, 179, 88, 1);
+}

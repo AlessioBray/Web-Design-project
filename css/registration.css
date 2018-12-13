@@ -1,0 +1,127 @@
+body
+{
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: white;
+	background-image: url('../img/tetris_background.jpg');
+	background-size: cover;
+}
+
+h1
+{
+	position: relative;
+	left:50%;
+	transform: translate(-50%, 0%);
+	width: 416px;
+	padding: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	border: ridge;
+	border-color: transparent;
+	text-align: center;
+	font-weight: bolder;
+	color: rgba(60, 160, 184, 0.9);
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	background-color: rgba(200, 0, 0, 0.9);
+}
+
+p
+{
+	padding: 10px;
+	margin: 0px;
+}
+
+#linkContainer
+{
+	position:absolute;
+	right: 150px;
+	top: 25px;
+	height: 66px;
+	margin: 0px;
+}
+
+#indexLink
+{
+	position: relative;
+	top: 22px;
+	padding: 20px;
+	border-radius: 10px;
+	border: ridge;
+	border-color: transparent;
+	text-decoration: none;
+	font-weight: bolder;
+	color: white; /*in questo modo anche se visitato è sempre bianco*/
+	background-color: rgba(200, 0, 0, 0.9);
+	text-decoration: none;
+}
+
+#indexLink:hover
+{
+	color: rgba(200, 0, 0, 0.9);
+	background-color: rgba(60, 160, 184, 0.9);
+}
+
+form
+{
+	position: absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	padding: 30px;
+	border-radius: 10px;
+	border-color: rgb(0, 0, 96);
+	color: white;
+	background-color: rgba(200, 0, 0, 0.9);
+}
+
+input
+{
+	width: 150px;
+	height: 24px;
+	position: relative;
+	padding: 5px;
+	border-radius: 7px;
+	border-color: transparent;
+	margin-right: auto;
+	margin-left: 10px;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+	
+input:focus
+{
+	border-color: rgba(39, 179, 88, 1);
+	outline: none;
+}
+
+button
+{
+	width: 105px;
+	height: 45px;
+	border-radius: 5px;
+	border: hidden;
+	margin-bottom: 5px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	color: white;
+	background-color: rgba(39, 179, 88, 0.7);
+	cursor: pointer;
+}
+
+button:hover
+{
+	background-color: rgba(39, 179, 88, 1);
+	text-decoration: none;
+}	
+		
+button:active
+{		
+	outline: none; 
+}
+
+#usernameWarning, #emailWarning
+{
+	font-weight:bold;
+	color: red;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}

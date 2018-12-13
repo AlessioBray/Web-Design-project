@@ -1,0 +1,139 @@
+body 
+{
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: white;
+	background-image: url('../img/tetris_background.jpg');
+	background-size: cover;
+}
+
+p
+{
+	margin: 0px;
+}
+
+a
+{  
+	display: inline;
+	color: white;
+	text-decoration: none;
+}
+
+img
+{
+	position: absolute;
+	left: 50%;
+	top: 5%;
+	transform: translate(-50%, 0%);
+	height: 200px;
+	width: auto;
+}
+
+section
+{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -20%);
+	height: 385px;
+}
+
+#linkContainer
+{
+	position: relative;
+	width: 245px;
+	height: 66px;
+	margin: 0px;
+}
+
+#rulesLink
+{
+	position: relative;
+	top: 22px;
+	width: 245px;
+	padding: 22.5px 42px;
+	border-radius: 10px;
+	text-align: center;
+	font-weight: bolder;
+	background-color: rgba(200, 0, 0, 0.9);
+}
+
+#rulesLink:hover
+{
+	color: rgba(200, 0, 0, 0.9);
+	background-color: rgba(60, 160, 184, 0.9);
+}
+
+#login
+{
+	position: relative;
+	top: 19px;
+	width: 245px;
+	height: 300px;
+	border-radius: 10px;
+	border-color: rgb(0, 0, 96);
+	background-color: rgba(200, 0, 0, 0.9);
+}
+
+form
+{	
+	font-size: 15px;
+	font-weight: normal;
+}
+
+input
+{
+	position: relative;
+	display: block;
+	width: 152px;
+	height: 22px;
+	padding: 5px;
+	border-radius: 7px;
+	border-color: transparent;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+	
+input:focus
+{
+	border-color: rgba(39, 179, 88, 1);
+	outline: none;
+}
+
+h5
+{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+h5 > a:hover
+{
+	color: rgba(60, 160, 184, 0.9);
+}
+
+#enter
+{
+	width: 95px;
+	height: 38px;
+	border-radius: 5px;
+	border: hidden;
+	margin-bottom: 5px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	color: white;
+	background-color: rgba(39, 179, 88, 0.7);
+	cursor: pointer;
+}
+
+#enter:hover
+{
+	color: white;
+	background-color: rgba(39, 179, 88, 1);
+}
+	
+#enter:focus
+{
+	outline: none; 
+}

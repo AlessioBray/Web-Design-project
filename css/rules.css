@@ -1,0 +1,85 @@
+body 
+{
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: white;
+	background-image: url('../img/tetris_background.jpg');
+	background-size: cover;
+}
+
+h1
+{
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	width: 400px;
+	padding: 20px;
+	border-radius: 10px;
+	border: ridge;
+	border-color: transparent;
+	margin-bottom: 20px;
+	color: rgba(60, 160, 184, 0.9);
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	background-color: rgba(200, 0, 0, 0.9);
+	
+}
+
+#linkContainer
+{
+	position:absolute;
+	right: 105px;
+	top: 35px;
+	height: 66px;
+	margin: 0px;
+}
+
+#indexLink
+{
+	position: relative;
+	top: 22px;
+	padding: 20px;
+	border-radius: 10px;
+	border: ridge;
+	border-color: transparent;
+	text-decoration: none;
+	font-weight: bolder;
+	color: white; /*in questo modo anche se visitato è sempre bianco*/
+	background-color: rgba(200, 0, 0, 0.9);
+}
+
+#indexLink:hover
+{
+	color: rgba(200, 0, 0, 0.9);
+	background-color: rgba(60, 160, 184, 0.9);
+}
+
+#rules
+{
+	padding: 30px;
+	border-radius: 30px;
+	border: hidden;
+	text-align: justify;
+	background-color: rgba(200, 0, 0, 0.9);
+}
+
+h2
+{
+	text-align: center;
+	color: rgba(60, 160, 184, 0.9);
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+	
+#tetramini
+{
+	height: 250px;
+	width: auto;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	padding: 30px;
+}
+
+ul
+{
+	list-style-position: outside;
+}
